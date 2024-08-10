@@ -2,3 +2,6 @@ bananas
 manzanas
 limpieza
 bebidas
+palta
+naranja
+kiwi
