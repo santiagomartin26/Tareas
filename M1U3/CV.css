@@ -1,0 +1,29 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+.destacar{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 110%;
+}
+
+
+.imagen{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+
+#nombre{
+    position: relative;
+    top: -15px;
+    left: 35px;
+}
