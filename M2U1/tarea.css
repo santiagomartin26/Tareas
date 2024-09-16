@@ -1,0 +1,29 @@
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.cuadrado1 {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+}
+
+.cuadrado2 {
+    width: 100px;
+    height: 100px;
+    background: brown;
+}
+
+.azul {
+    background: blue;
+}
+
+.verde {
+    background: green;
+}
+
+.rosa {
+    background: pink;
+}

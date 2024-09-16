@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="tarea.css">
+</head>
+
+<body>
+    <h3>Tarea</h3>
+    <h5>Ejercicio 1</h5>
+    <!--Ejercicio 1-->
+    <div class="cuadrado">
+    </div>
+    <p>
+        <button class="boton" id="azul">Azul</button>
+        <button class="boton" id="reset">Reset</button>
+    </p>
+
+    <div class="cuadrado1"></div>
+    <p>
+        <button class="boton" id="verde">Verde</button>
+        <button class="boton" id="reset1">Reset</button>
+    </p>
+    <div class="cuadrado2"></div>
+        <button class="boton" id="rosa">Rosa</button>
+        <button class="boton" id="reset2">Reset</button>
+    
+    <h5>Ejercicio 2</h3>
+        <label>Mensaje: <textarea id='texto' oninput="contarCaracteres()"></textarea></label>
+        <p>Caracteres Escritos: <span id='contador' class='counter'>0</span></p>
+    <script>
+        //Ejercicio 1
+        const cuadrado = document.getElementsByClassName ('cuadrado')[0];
+        const azul = document.getElementById('azul');
+        const reset = document.getElementById('reset');
+
+        azul.addEventListener('click', function () {
+            cuadrado.classList.add('azul')
+        })
+
+        reset.addEventListener('click', function () {
+            cuadrado.classList.remove('azul');
+        });
+
+
+        const cuadrado1 = document.getElementsByClassName('cuadrado1')[0]
+        const verde = document.getElementById('verde')
+        const reset1= document.getElementById('reset1')
+
+        verde.addEventListener('click', function (){
+            cuadrado1.classList.add('verde')
+        })
+
+        reset1.addEventListener('click', function () {
+            cuadrado1.classList.remove('verde');
+        });
+
+        const cuadrado2 = document.getElementsByClassName('cuadrado2')[0]
+        const rosa = document.getElementById('rosa')
+        const reset2 = document.getElementById('reset2')
+
+        rosa.addEventListener('click', function(){
+            cuadrado2.classList.add('rosa')
+        })
+        reset2.addEventListener('click',function(){
+            cuadrado2.classList.remove('rosa')
+        })
+
+        // Ejercicio 2
+        function contarCaracteres(){
+            var texto = document.getElementById('texto').value;
+            document.getElementById('contador').innerText = texto.length;
+        }
+    </script>
+
+</body>
+
+</html>
