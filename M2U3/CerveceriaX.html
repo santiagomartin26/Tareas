@@ -28,16 +28,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Novedades</a>
+                        <a class="nav-link" href="#novedades">Novedades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Nosotros</a>
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Conocenos</a>
+                        <a class="nav-link" href="#conocenos">Conocenos</a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
     </nav>
 
     <div class="container-fluid">
-        <div id="home" class="row align-items-center hero">
+        <div id="home" class="row align-items-center hero scroll_section">
             <div class="col-lg-3 offset-lg-2">
                 <p>Bajada</p>
                 <h1>Titulo Principal</h1>
@@ -56,7 +56,7 @@
     </div>
 
     <div class="row my-3">
-        <div id="novedades" class="col-md-5 offset-md-2">
+        <div id="novedades" class="col-md-5 offset-md-2 scroll_section">
             <h2>Novedades</h2>
             <ul class="lista-novedades">
                 <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
@@ -130,6 +130,113 @@
             </div>
         </div>
 
+        <div id="historia" class="row align-items-center py-4">
+            <div class="col-lg-2 col-md-3 offset-lg-2 d-none d-sm-block">
+                <img src="img/historia_1.jpg" alt="historia 1" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-md-3 d-none d-sm-block">
+                <img src="img/historia_2.jpg" alt="historia 2" class="img-fluid">
+            </div>
+            <div class="col-12 d-sm-none">
+                <img src="img/historia_3.jpg" alt="historia 3" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+                <h2>Historia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum necessitatibus obcaecati
+                    blanditiis explicabo.</p>
+            </div>
+        </div>
+
+        <div id="nosotros" class="row align-items-stretch my-3 staff py-4 scroll_section">
+            <div class="col-lg-8 offset-lg-2">
+                <h2>Nosotros</h2>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros01.jpg" class="card-img-top" alt="Diana Reyes">
+                            <div class="card-body">
+                                <h5 class="card-title">Diana Reyes</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                                    debitis aliquam,
+                                    aperiam dicta eius magnam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros02.jpg" class="card-img-top" alt="Diana Reyes">
+                            <div class="card-body">
+                                <h5 class="card-title">Luciano Torres</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                                    debitis aliquam,
+                                    aperiam dicta eius magnam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros03.jpg" class="card-img-top" alt="Diana Reyes">
+                            <div class="card-body">
+                                <h5 class="card-title">Juan Rodriguez</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                                    debitis aliquam,
+                                    aperiam dicta eius magnam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="img/nosotros04.jpg" class="card-img-top" alt="Diana Reyes">
+                            <div class="card-body">
+                                <h5 class="card-title">Roberto Guevara</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+                                    debitis aliquam,
+                                    aperiam dicta eius magnam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="conocenos" class="row py-4 scroll_section">
+            <div class="col-md-4 offset-md-2">
+                <h2>Visitanos</h2>
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.972573178512!2d-64.19585032365224!3d-31.442421997511726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2f63bd47aa7%3A0xd84b77324dd71bc8!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%20%E2%80%93%20Facultad%20Regional%20C%C3%B3rdoba%20(U.T.N.%20%E2%80%93%20F.R.C.)%20%5BCiudad%20Universitaria%5D!5e0!3m2!1ses!2sar!4v1731421143439!5m2!1ses!2sar"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mt-4 mt-sm-0">
+            <h2>Contactanos</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                <div class="col-md-6">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido">
+                </div>
+                <div class="col-12">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="...">
+                </div>
+                <div class="col-12">
+                    <label for="tel" class="form-label">Tel</label>
+                    <input type="text" class="form-control" id="tel" placeholder="...">
+                </div>
+                <div class="col-12">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
 
         <footer>
             <p class="text-center">Diseñado por: Santiago Martin</p>
